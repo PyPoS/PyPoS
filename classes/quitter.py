@@ -2,7 +2,7 @@
 
 __author__ = 'ebo'
 
-from Tkinter import *  # get widget classes
+from Tkinter import Frame, LEFT  # get widget classes
 from tkMessageBox import askokcancel  # get canned std dialog
 import ttk
 

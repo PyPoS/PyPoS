@@ -2,7 +2,7 @@
 from __future__ import print_function
 __author__ = 'ebo'
 
-from Tkinter import *
+from Tkinter import Text, END, DISABLED
 import ttk
 
 

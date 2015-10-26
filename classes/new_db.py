@@ -2,7 +2,7 @@
 from __future__ import print_function
 __author__ = 'ebo'
 
-from Tkinter import *
+from Tkinter import BOTH
 import ttk
 import csv
 from tkMessageBox import showinfo, showerror

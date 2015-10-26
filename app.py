@@ -1,8 +1,7 @@
 #! /usr/bin/env python
 from __future__ import print_function
 
-from Tkinter import *
-from PIL import Image, ImageTk
+from Tkinter import Menu, PhotoImage, RAISED, Tk
 from classes.stock import *
 from classes.dispense import DispenseDrug
 from classes.app_help import AppHelp

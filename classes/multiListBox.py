@@ -1,4 +1,5 @@
-from Tkinter import *
+from Tkinter import Frame, FALSE, Label, LEFT, YES, BOTH, RAISED, Listbox, SCROLL, UNITS, Scrollbar, FLAT, Y, X, \
+    VERTICAL, Tk, END
 
 
 class MultiListbox(Frame):

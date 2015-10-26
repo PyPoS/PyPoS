@@ -18,7 +18,8 @@ class AutocompleteEntry(Tkinter.Entry):
         To cycle through hits use down and up arrow keys.
         """
         def set_completion_list(self, completion_list):
-                self._completion_list = sorted(completion_list, key=str.lower) # Work with a sorted list
+                self._completion_list = sorted(completion_list, key=str.lower)
+                # Work with a sorted list
                 self._hits = []
                 self._hit_index = 0
                 self.position = 0

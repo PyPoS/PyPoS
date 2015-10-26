@@ -3,7 +3,6 @@ __author__ = 'ebo'
 
 from classes.quitter import Quitter
 from classes.multiListBox import MultiListbox
-import csv
 from tkMessageBox import askokcancel, showinfo, showerror
 import re
 import sql
@@ -16,7 +15,6 @@ except ImportError:
     from tkinter import LEFT, BOTH, RIGHT, END
     from tkinter import TclError, Toplevel
     from tkinter import ttk
-
 
 
 class StockClass:
